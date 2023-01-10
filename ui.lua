@@ -9,8 +9,8 @@ loadstring(request({Url="https://raw.githubusercontent.com/cypherdh/Script-Libra
 local UIS = game:GetService("UserInputService")
 local TS = game:GetService("TweenService")
 function library:CreateWindow(name, version, icon)
-	name = "seere"
-	version = " | discord.gg/seere | cracked by sufi#1337"
+	name = name or "Name"
+	version = version or "Version"
 	icon = icon or math.random()
 	local MyGui = Instance.new("ScreenGui")
 	local Window = Instance.new("Frame")
